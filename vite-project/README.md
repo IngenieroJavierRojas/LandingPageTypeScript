@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+
+
+Vamos a tener en cuenta unos patrones claros para la estructura y diseño del aplicativo
+Vamos a manejar el principio solid y una arquitectura monolitica para conexión con backend ya que, aun no 
+tenemos bases suficientes en microservicios con nestjs
