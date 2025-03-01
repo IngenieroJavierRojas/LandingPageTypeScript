@@ -1,12 +1,4 @@
 import { JSX } from 'react';
+import { AppRouter } from './routes/AppRouter';
 
-const App = () : JSX.Element => {
-  return (
-    <div className=''>
-      
-      <h1>Hello World</h1>
-    </div>
-  );
-};
-
-export default App;
+export const App = () : JSX.Element => <AppRouter/>
